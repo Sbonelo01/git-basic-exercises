@@ -1,0 +1,1768 @@
+    1  pwd
+    2  ls
+    3  clear
+    4  pwd
+    5  ~/.zshrc
+    6  chmod 777 ~/.zshrc
+    7  ~/.zshrc
+    8  pwd
+    9  ls
+   10  cd ..
+   11  ls
+   12  cd ..
+   13  ls
+   14  clear
+   15  pwd
+   16  cd
+   17  pwd
+   18  finger
+   19  fish
+   20  clear
+   21  pwd
+   22  php
+   23  sudo apt install php
+   24  pwd
+   25  larvel
+   26  sudo apt install bootstrap
+   27  sudo apt-get update
+   28  sudo apt-get install apache2
+   29  sudo apache2ctl configtest
+   30  sudo nano /etc/apache2/apache2.conf
+   31  sudo apache2ctl configtest
+   32  sudo systemctl restart apache2
+   33  sudo ufw app list
+   34  sudo ufw app info "apache full"
+   35  sudo ufw app info "apache Full"
+   36  sudo ufw app info "Apache Full"
+   37  sudo apt-get install mysql-server
+   38  mysql_secure_installation
+   39  sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+   40  sudo nano /etc/apache2/mods-enabled/dir.conf
+   41  sudo systemctl restart apache2
+   42  sudo systemctl status apache2
+   43  apt-cache search php - | less
+   44  sudo nano /var/www/html/info.php
+   45  http://127.0.0.1/info.php
+   46  sudo nano /var/www/html/info.php
+   47  http://127.0.0.1/info.php
+   48  sudo nano /var/www/html/info.php
+   49  sudo add-apt-repository ppa:certbox/certbox
+   50  sudo add-apt-repository ppa:certbot/certbot
+   51  sudo apt-get update
+   52  pwd
+   53  sudo apt-get install python-certbot-apache
+   54  pwd
+   55  ls
+   56  cd Desktop
+   57  ls
+   58  cd testing_php
+   59  ls
+   60  cd
+   61  ls
+   62  sudo nano /var/www/html/info.php
+   63  sudo vim /var/www/html/info.php
+   64  http://127.0.0.1/info.php
+   65  sudo vim /var/www/html/info.php
+   66  sudo vim /var/www/html/index.php
+   67  http://127.0.0.1/index.php
+   68  ifconfig
+   69  sudo mysql
+   70  cd
+   71  ifconfig
+   72  clear
+   73  http://127.0.0.1
+   74  sudo ufw app info "Apache Full"
+   75  sudo ufw allow in "Apache Full"
+   76  http://127.0.0.1
+   77  ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+   78  sudo aptinstall curl
+   79  sudo apt install curl
+   80  curl http://icanhazip.com
+   81  http://41.115.69.2
+   82  mysql
+   83  sudo sbonelo
+   84  sudo
+   85  su sbonelo
+   86  update user set password=PASSWORD("Gcwabe101") where user='sbonelo';
+   87  sudo /etc/init.d/mysql stop
+   88  sudo mysql_safe --skip-grant-tables &
+   89  sudo mysql_safe --skip-grant-tables
+   90  sudo mysqld_safe --skip-grant-tables &
+   91  mysql -uroot
+   92  use mysql;
+   93  mysql -uroot
+   94  mysql -h 127.0.0.1 -uroot
+   95  /etc/mysql/my.cnf
+   96  sudo vim /etc/mysql/my.cnf
+   97  mysql -h localhost -uroot
+   98  sudo vim /etc/mysql/my.cnf
+   99  sudo mysqladmin password newpassword
+  100  sudo find / -type s
+  101  /var/lib/mysql/mysql.sock
+  102  chmod 777 /var/lib/mysql/mysql.sock
+  103  sudo service mysqld start
+  104  ps -A|grep mysql
+  105  sudo pkill mysql
+  106  ps -A|grep mysqld
+  107  sudo pkill mysqld
+  108  service mysqld restart mysql -u root -p
+  109  sudo apt-get purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*
+  110  sudo rm -fr /etc/mysql /var/lib/mysql
+  111  sudo apt-get autoremove
+  112  sudo apt-get autoclean
+  113  mysql
+  114  sudo apt-get remove --purge mysql*
+  115  sudo apt-get install mysql-client mysql-server
+  116  sudo apt install mysql-server
+  117  sudo mysql_secure_installation
+  118  sudo service mysql start
+  119  sudo vim /var/log/mysqld.log
+  120  /var/log/mysqld.log
+  121  mkdir -p /var/run/mysqld/
+  122  sudo mkdir -p /var/run/mysqld/
+  123  service mysqld start
+  124  /var/log/mysqld.lo
+  125  sudo vim /var/log/mysqld.lo
+  126  sudo nano /var/log/mysqld.lo
+  127  chown mysql.mysql/var/run/mysqld/
+  128  chown
+  129  chown --help
+  130  chown mysql.mysql/var/run/mysqld/
+  131  service mysqld restart
+  132  sudo service mysqld start
+  133  ps -ef | grep mysql | grep -v grep.
+  134  sudo apt-get purge mysql-server
+  135  sudo apt-get autoremove
+  136  sudo apt-get autoclean
+  137  sudo apt-get update
+  138  sudo apt-get install mysql-server
+  139  sudo apt-get --purge remove libc6-dev-amd64
+  140  sudo apt-get -f install
+  141  sudo apt-get update
+  142  sudo apt-get --purge remove libc6-dev-amd64 
+  143  sudo rm /etc/apt/apt.conf.d/50unattended-upgrades*
+  144  sudo apt-get update
+  145  sudo apt-get upgrade
+  146  sudo apt-get --purge remove libc6-dev-amd64
+  147  sudo apt-get -f install
+  148  sudo apt-get update
+  149  sudo mysql
+  150  sudo apt-get --purge remove libc6-dev-i386 libc6-dev-x32 gcc-5-multilib gcc-multilib
+  151  sudo apt autoremove -f
+  152  sudo apt-get -f install
+  153  sudo ls -al /var/lib/mysql/
+  154  sudo rm /var/lib/mysql/debian-5.6-flag
+  155  sudo apt-get -f install
+  156  sudo apt-get purge mysql*
+  157  sudo apt-get autoremove
+  158  sudo apt-get purge mysql*
+  159  pwd
+  160  ls
+  161  sudo mysql
+  162  mysql -h 127.0.0.1 -P 3306 -u root -p <database>
+  163  telnet 127.0.0.1 3306
+  164  sudo sbonelo
+  165  su sbonelo
+  166  sudo sbonelo
+  167  su sbonelo
+  168  gedit /etc/mysql/my.cnf
+  169  nano /etc/mysql/my.cnf
+  170  clea
+  171  clear
+  172  pwd
+  173  ls
+  174  cd Desktop
+  175  ls
+  176  cd Ticket-Booking-master
+  177  ls
+  178  cd css
+  179  ls
+  180  cd ..
+  181  ld
+  182  ls
+  183  cf database
+  184  cd database
+  185  ls
+  186  ls -l
+  187  cat book.sql
+  188  pwd
+  189  cd ../../..
+  190  ls
+  191  cd SELECT
+  192  CD Desktop
+  193  pwd
+  194  cd 
+  195  cd Desktop
+  196  ls
+  197  cd Ticket-Booking-master
+  198  ls
+  199  cd login.php
+  200  cd img
+  201  ls
+  202  cd ..
+  203  nano login.php
+  204  ls
+  205  cat Readme.txt
+  206  cd ..
+  207  ls
+  208  cd web_development
+  209  ls
+  210  git
+  211  git status
+  212  git add *
+  213  git status
+  214  git commit -m "Web_development"
+  215  git push
+  216  git
+  217  init Sbonelo01
+  218  init
+  219  kinit Sbonelo01
+  220  branch
+  221  git branch
+  222  ls
+  223  git push
+  224  git push Sbonelo01
+  225  git status
+  226  git
+  227  git log
+  228  git diff
+  229  git branch
+  230  ls
+  231  cd
+  232  ls
+  233  git clone sbonelo01
+  234  pwd
+  235  cd Desktop
+  236  cd web_development/salonr
+  237  ls
+  238  cd ..
+  239  pwd
+  240  cd Desktop
+  241  ls
+  242  adb
+  243  abd
+  244  adb
+  245  cd
+  246  adb
+  247  clrscr
+  248  clean
+  249  clear
+  250  adb logcat -c
+  251  pwd
+  252  cd /sbonelo/Desktop/
+  253  cd /sbonelo/desktop/
+  254  cd sbonelo/desktop/
+  255  pwd
+  256  cd sbonelo
+  257  pwd
+  258  cd Desktop
+  259  adb
+  260  abd logcat -c
+  261  pwd
+  262  logcate -c
+  263  logcat
+  264  clear
+  265  pwd
+  266  exit
+  267  clear
+  268  ^V^V^V^M^V
+  269  clear
+  270  ;5~;5~;5~;5~5~5~5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~11111clear
+  271  clear
+  272  dlfhkbmsdbvds
+  273  cd sbonelo
+  274  if cd = 'sbonelo' {\necho "hello";\nend
+  275  clear
+  276  pwd
+  277  cd Desktop
+  278  ls
+  279  cd adb
+  280  ls
+  281  adb.exe
+  282  start adb.exe
+  283  start firefox
+  284  clear
+  285  ls
+  286  cd edb
+  287  cd adb.exe
+  288  nano abd.exe
+  289  clear
+  290  cd Desktop
+  291  ls
+  292  cd ..
+  293  ls
+  294  cd web_development
+  295  cd ..
+  296  ls
+  297  cd Ticket-Booking-master
+  298  ls
+  299  cd index.php
+  300  nano index.php
+  301  cd
+  302  sudo sbonelo
+  303  su sbonelo
+  304  apt-get update
+  305  apt-pkg update
+  306  apt
+  307  apt update
+  308  sudo apt update
+  309  sudo apt 
+  310  sudo apt update
+  311  ls
+  312  sudo apt 
+  313  sudo apt show
+  314  sudo apt list
+  315  php
+  316  myql
+  317  sySql
+  318  sySQL
+  319  mySQL
+  320  mySql
+  321  php
+  322  exit
+  323  sudo apt-get update
+  324  sudo apt-get list
+  325  sudo apt-get php
+  326  sudo apt-get install php
+  327  sudo apt-get install mysql-server
+  328  log
+  329  log echo
+  330  echo 'log'
+  331  echo "log"
+  332  echo [log]
+  333  log echo
+  334  'log' echo
+  335  [log] echo
+  336  mysql
+  337  clear
+  338  sudo su
+  339  sudo apt-get purge libapache2-mod-auth-mysql
+  340  sudo apt-get purge mysql-server mysql-server
+  341  sudo apt-get purge apache2 apache2-mpm-prefo
+  342  sudo apt-get purge autoremove
+  343  tasksel
+  344  sudo apt-get tasksel
+  345  sudo apt-get purge mysql-server apache2 php5
+  346  sudo su
+  347  pwd
+  348  sudo apt update && sudo apt ugrade
+  349  apt list --ugradable
+  350  apt list --upradable
+  351  apt list --upgradable
+  352  sudo apt install tasksel
+  353  sudo tasksel install lamp-server
+  354  sudo apt install apache2
+  355  pwd
+  356  cd Desktop/
+  357  ls
+  358  cd Ticket-Booking-master
+  359  ls
+  360  cat Readme.txt
+  361  ls
+  362  cd Desktop
+  363  ls
+  364  cd c
+  365  ls
+  366  cd 3d_bar
+  367  ls
+  368  vim 3d_bar.c 
+  369  cd ..
+  370  ls
+  371  cd ../web_development
+  372  ls
+  373  cd ,,
+  374  l
+  375  ls -l
+  376  cd ..
+  377  ls
+  378  cd sbonelo
+  379  ls
+  380  cat script.sh
+  381  cd ..
+  382  ls
+  383  cd adb
+  384  ls
+  385  start adb.exe
+  386  cd ..
+  387  ls
+  388  cd file_upload
+  389  ls
+  390  vim file_upload.html
+  391  cd ../testing_php
+  392  ls
+  393  vim info.php
+  394  ls
+  395  cd ..
+  396  ls
+  397  cd Ticket-Booking-master\ \(2\)
+  398  ls
+  399  vim book.php
+  400  vim cancelled.php
+  401  vim cancel.php
+  402  cd css
+  403  ls
+  404  cd style.css
+  405  vim style.css
+  406  ls
+  407  vim bootstrap-responsive.css
+  408  cd ..
+  409  ls
+  410  cd index.php
+  411  vim index.php
+  412  vim register.php
+  413  cd ../..
+  414  ls
+  415  cd Desktop/Ticket-Booking-master\ \(2\)
+  416  ls
+  417  cd css
+  418  ls
+  419  vim datepicker.css
+  420  cd ..
+  421  ls
+  422  vim login.php
+  423  vim index.php
+  424  pwd
+  425  cd ..
+  426  ls
+  427  cd testing_php
+  428  ls
+  429  vim info.php
+  430  owd
+  431  pwd
+  432  cd ,,
+  433  ls
+  434  cd ..
+  435  ls
+  436  cd Ticket-Booking-master
+  437  ls
+  438  vim index.php
+  439  vim seat.php
+  440  vim register.php
+  441  vim login.php
+  442  ls
+  443  vim register.php
+  444  vim seat.php
+  445  cd ..
+  446  ls
+  447  cd web_development
+  448  ls
+  449  cp Showoff/Desktop
+  450  cp --help
+  451  cp Showoff/cd ../Desktop
+  452  cp Showoff/ ../Desktop
+  453  pwd
+  454  ls
+  455  cp Showoff/Desktop
+  456  cp Showoff -t Desktop
+  457  cp Showoff
+  458  pwd
+  459  ls
+  460  cd Desktop
+  461  ls
+  462  pwd
+  463  ls
+  464  exit
+  465  ls
+  466  cd ..
+  467  ls
+  468  cd Ticket-Booking-master
+  469  ls
+  470  pwd
+  471  ls
+  472  cd Desktop
+  473  ls
+  474  cd tinyevents
+  475  ls
+  476  vim index.html
+  477  pwd
+  478  cd DEsktop
+  479  cd Dsktop
+  480  cd Desktop
+  481  ls
+  482  cd tinyevents
+  483  ls
+  484  vim index.html
+  485  pwd
+  486  cd Desktop/tinyevents
+  487  ls
+  488  cd css
+  489  ls
+  490  cd index_styling
+  491  ls
+  492  vim hero-slider.css
+  493  ls
+  494  php
+  495  sudo su
+  496  clear
+  497  start system settings
+  498  start mozilla firefox
+  499  clear
+  500  hello(){\necho "Hello World"\n}
+  501  hello
+  502  pwd
+  503  ls
+  504  cd Desktop
+  505  ls
+  506  cd c
+  507  ls
+  508  rm -fr 3d_bar
+  509  ls
+  510  vim simple_addition_of_static_value.c
+  511  gcc -o simple_addition_of_static_value simple_addition_of_static_value.c
+  512  vim simple_addition_of_static_value.c
+  513  gcc -o simple_addition_of_static_value simple_addition_of_static_value.c
+  514  vim simple_addition_of_static_value.c
+  515  gcc -o simple_addition_of_static_value simple_addition_of_static_value.c
+  516  ./simple_addition_of_static_value
+  517  vim simple_addition_of_static_value.c
+  518  gcc -o simple_addition_of_static_value simple_addition_of_static_value.c
+  519  ./simple_addition_of_static_value
+  520  vim simple_addition_of_static_value.c
+  521  gcc -o simple_addition_of_static_value simple_addition_of_static_value.c
+  522  ./simple_addition_of_static_value
+  523  vim simple_addition_of_static_value.c
+  524  gcc -o simple_addition_of_static_value simple_addition_of_static_value.c
+  525  ./simple_addition_of_static_value
+  526  vim simple_addition_of_static_value.c
+  527  ls
+  528  rm -fr *
+  529  ls
+  530  vim strong_not_strong.c
+  531  gcc -o strong_not_strong strong_not_strong.c
+  532  ls
+  533  cd ..
+  534  ls
+  535  cd c
+  536  ls
+  537  gcc -o strong_not_strong strong_not_strong.c
+  538  vim strong_not_strong.c
+  539  gcc -o strong_not_strong strong_not_strong.c
+  540  vim strong_not_strong.c
+  541  gcc -o strong_not_strong strong_not_strong.c
+  542  vim strong_not_strong.c
+  543  gcc -o strong_not_strong strong_not_strong.c
+  544  vim strong_not_strong.c
+  545  gcc -o strong_not_strong strong_not_strong.c
+  546  vim strong_not_strong.c
+  547  gcc -o strong_not_strong strong_not_strong.c
+  548  ./strong_not_strong
+  549  vim strong_not_strong.c
+  550  y
+  551  su pkg update
+  552  pkg update
+  553  ssh <sbonelo>@192.168.0.20
+  554  ssh <user>@192.168.0.20
+  555  sudo apt-get install lamp-server^
+  556  pwd
+  557  ls
+  558  cd Desktop
+  559  ls
+  560  cd web_development
+  561  ls
+  562  cd CUSTOMER\ DETAILS
+  563  ls
+  564  open .
+  565  cat index.html
+  566  clear
+  567  ls
+  568  cd ..
+  569  ls
+  570  cd Form
+  571  ls
+  572  cd ..
+  573  ls
+  574  cd ..
+  575  ls
+  576  cd tinyevents
+  577  ls
+  578  cd images
+  579  ls
+  580  cd ..
+  581  ls
+  582  cd wojodesign-simplecart-js-51a9a38
+  583  ls
+  584  cat README.md
+  585  cd ..
+  586  ls
+  587  lamp
+  588  sudo apt-get install lamp^
+  589  cd
+  590  ls
+  591  cd ..
+  592  ls
+  593  cd ..
+  594  ls
+  595  cd media
+  596  ls
+  597  cd sbonelo
+  598  ls
+  599  cd MHLONGOST/
+  600  ls
+  601  cd ..
+  602  ls
+  603  cd ..
+  604  ls
+  605  cd ..
+  606  ls
+  607  cd var
+  608  ls
+  609  cd mail
+  610  ls
+  611  ls -l
+  612  cd ..
+  613  ls
+  614  cd run
+  615  ls
+  616  cd network
+  617  ls
+  618  cd ../../log
+  619  ls
+  620  auth.log
+  621  cd auth.log
+  622  cat auth.log
+  623  cd ..
+  624  ls
+  625  pwd
+  626  cd ..
+  627  ls
+  628  cd bin
+  629  ls
+  630  cd
+  631  exit
+  632  php -v
+  633  apache -v
+  634  apache2 -v
+  635  mysql --version
+  636  sudo find / -name apache2
+  637  /usr/bin/apache2 -V
+  638  /usr/bin/apache2 -v
+  639  /usr/sbin/apache2 -v
+  640  sudo vim /etc/apche2/mods-availible/php5.conf
+  641  sudo a2enmod userdir
+  642  service apace2 restart
+  643  exit
+  644  y
+  645  n
+  646  start firefox
+  647  exit
+  648  clear
+  649  start firefox
+  650  start firefox web browser
+  651  clear
+  652  exit
+  653  pwd
+  654  ls
+  655  tree
+  656  pwd
+  657  ls
+  658  ls -l
+  659  start
+  660  start firefox
+  661  open .firefox
+  662  open
+  663  open -firefox
+  664  open -l
+  665  -l
+  666  open -l
+  667  open --login
+  668  shutdown -a
+  669  shutdown 
+  670  shutdown -c
+  671  start cp18.domains.co.za
+  672  ftp
+  673  ftp://tinyevents.co.za
+  674  ftp
+  675  man ftp
+  676  ftp ://tinyevents.co.za tinyeven 
+  677  ftp
+  678  pwd
+  679  ls
+  680  pwd
+  681  cd ..
+  682  ls
+  683  cd ..
+  684  ls
+  685  cd
+  686  ls
+  687  cd Desktop
+  688  ls
+  689  cd web_development
+  690  ls
+  691  ssh root@tinyevents.co.za
+  692  cd /var/www/html/tinyevents.co.za/public_html
+  693  sudo chmod -R 755 system/storage/cache/
+  694  ssh root@tinyevents.co.za
+  695  ssh root@tinyevents.co.za:21
+  696  ssh root@tinyevents.co.za
+  697  ssh root@tinyevents.co.za:21
+  698  clear
+  699  sudo apt update && sudo apt dist-upgrade
+  700  sudo apt-get purge mysql-server apache2 php
+  701  sudo apt autoremove && sudo apt autoclean
+  702  pwd
+  703  ls
+  704  cd ..
+  705  ls
+  706  cd ..
+  707  ls
+  708  cd bin
+  709  ls
+  710  cd busybox
+  711  ls
+  712  pwd
+  713  ls
+  714  cd
+  715  ls
+  716  cd ../../..
+  717  ls
+  718  cd ..
+  719  ls
+  720  cd tmp
+  721  ls
+  722  exit
+  723  mysli
+  724  mysql
+  725  vim /var/run/mysqld/mysqld.sock
+  726  nano /var/run/mysqld/mysqld.sock
+  727  start /var/run/mysqld/mysqld.sock
+  728  man start
+  729  git
+  730  git status
+  731  man git status
+  732  clear
+  733  sudo apt-get install rar
+  734  rar e Buckethead-Colma.rar
+  735  pwd
+  736  ls
+  737  cd Desktop
+  738  ls
+  739  chmod u Buckethead\ -\ Colma.rar 777
+  740  chmod Buckethead\ -\ Colma.rar 777
+  741  chmod --help
+  742  test_python
+  743  pwd
+  744  ls
+  745  cd Desktop
+  746  ls
+  747  start test_python
+  748  exit()\n\nclear
+  749  clear
+  750  exit
+  751  clear
+  752  pwd
+  753  ls
+  754  man rn
+  755  man rmdir
+  756  rname
+  757  ls -l
+  758  cd Desktop
+  759  ls
+  760  rm Pele\ Birth\ of\ a\ Legend\ \(2016\)\ 1080p\ BluRay\ \[Cyro.se\].mp4
+  761  mv flight sample_flight_booking
+  762  rm -f Ticket-Booking-master\ \(2\)
+  763  man rm
+  764  rm -f Ticket-Booking-master\ \(2\)
+  765  pwd
+  766  ls
+  767  cd Cart,\ Templates\ and\ more
+  768  ls
+  769  vim Quick.Cart_v6.7
+  770  vim simple
+  771  vim simple-php-shopping-cart
+  772  start bluetooth
+  773  open /?
+  774  man open
+  775  openvt simple-php-shopping-cart
+  776  man open .
+  777  openvt -l
+  778  clear
+  779  pwd
+  780  cd ..
+  781  ls
+  782  man start
+  783  google open .
+  784  http://www.google.com open .
+  785  pwd
+  786  ls
+  787  abd open .
+  788  adb open .
+  789  rm Buckethead\ -\ Colma.rar
+  790  ls
+  791  if cd[] == 2{echo(cd))}
+  792  if cd[] == 2{echo(cd)}
+  793  if cd[] == 2{echo(cd"")}
+  794  clear
+  795  ls
+  796  pwd
+  797  cd Cart,\ Templates\ and\ more
+  798  ls
+  799  vim Quick.Cart_v6.7
+  800  pwd
+  801  ls
+  802  cd Desktop
+  803  ls
+  804  cd C
+  805  ls
+  806  cd Cart,\ Templates\ and\ more
+  807  ls
+  808  cd sunfest
+  809  ls
+  810  ls -l
+  811  cd sunfest
+  812  ls
+  813  vim index.html
+  814  git status
+  815  git
+  816  exit
+  817  pwd
+  818  ls -l
+  819  cd freeCodeCamp
+  820  ls -l
+  821  vim addition.js
+  822  ls
+  823  pwd
+  824  ls
+  825  cd ..
+  826  ls
+  827  cd downloads
+  828  clear
+  829  pwd
+  830  ls
+  831  cd Downloads
+  832  ls
+  833  cp *.json -t freeCodeCamp
+  834  cd ..
+  835  ls
+  836  cp -h
+  837  cp --h
+  838  pwd
+  839  ls -l
+  840  cat SELECT
+  841  pwd
+  842  ls
+  843  cd Desktop
+  844  ls
+  845  mkdir 00-JavaScript-Challenge
+  846  ls
+  847  cd 00-JavaScript-Challenge
+  848  touch 00-JavaScript-Challenge.html
+  849  pwd
+  850  vim 00-JavaScript-Challenge.html
+  851  ls
+  852  pwd
+  853  ls
+  854  cd Desktop
+  855  ls
+  856  exit
+  857  pwd
+  858  clear
+  859  lsb_release -a
+  860  sudo apt-get update
+  861  sudo apt-get install nodejs
+  862  echo $(SHELL)
+  863  pwd
+  864  sudo apt-get purge mysql-server apache2 php5
+  865  dpkg -l *apache* *mysql* phpmyadmin | grep ^ii | awk '{ print $2}' 
+  866  pwd
+  867  ls
+  868  cd freeCodeCamp
+  869  ls
+  870  vim addition.js
+  871  ls
+  872  ls -l
+  873  rm *
+  874  ls
+  875  cd ../rm freeCodeCamp
+  876  cd ..
+  877  ls
+  878  rm -fr freeCodeCamp
+  879  ls
+  880  cd Desktop
+  881  ls
+  882  vim usingRegex.js
+  883  pwd
+  884  ls
+  885  cd Desktop
+  886  ls
+  887  pwd
+  888  ls
+  889  vim tipCalculator.js
+  890  pwd
+  891  mkdir WEBDEV_CHALLENGES
+  892  LS
+  893  pwd
+  894  ls
+  895  cd WEBDEV_CHALLENGES
+  896  vim challenhge1.html
+  897  cd
+  898  ping 8.8.8.8
+  899  sudo /bin/ifconfig
+  900  sudo /bin
+  901  sudo /bin/ifconfig
+  902  http://localhost/var/www/html/index.html
+  903  vim localhost/var/www/html/index.html
+  904  cd localhost/var/www/html/
+  905  totem
+  906  shutdown -a
+  907  clear()\n
+  908  clear
+  909  telnet towel.blinkenlights.nl
+  910  find . -type f -print0 \ xargs -0 du -h | sort -hr | head -20
+  911  pwd
+  912  find . -type f -print0 \ xargs -1 du -h | sort -hr | head -20
+  913  xargs
+  914  watch
+  915  watch -b
+  916  watch --beep
+  917  watch(1)
+  918  watch(1).
+  919  watch(1);
+  920  pwd
+  921  ls
+  922  cd WEBDEV_CHALLENGES
+  923  ls
+  924  touch challenge2.html
+  925  vim challenge2.html
+  926  pwd
+  927  ls
+  928  cd ,,
+  929  ls
+  930  cd ..
+  931  ls
+  932  cd ..
+  933  ls
+  934  cd mnt
+  935  ls
+  936  cd ../etc
+  937  ls
+  938  pwd
+  939  cd ..
+  940  ls
+  941  cd media
+  942  ls
+  943  cd sbonelo
+  944  ls
+  945  pwd
+  946  cd
+  947  cd ..
+  948  ls
+  949  ls -l
+  950  pwd
+  951  cd ..
+  952  ls
+  953  cd tmp
+  954  ls
+  955  cd ../boot
+  956  ls
+  957  cd ../dev
+  958  ls
+  959  cd ..
+  960  ls
+  961  cd sbin
+  962  ls
+  963  cd ..
+  964  ls
+  965  pwd
+  966  ls
+  967  cd opt
+  968  ls
+  969  cd
+  970  ls
+  971  cd Templates
+  972  ls
+  973  cd ..
+  974  ls
+  975  cd WEBDEV_CHALLENGES
+  976  ls
+  977  cd ../Documents
+  978  ls
+  979  pwd
+  980  cd ..
+  981  ls
+  982  cd Public
+  983  ls
+  984  cd ../Desktop
+  985  ls
+  986  cd Agular
+  987  ls
+  988  cd Build\ a\ Real\ Time\ web\ app\ in\ node.js\ ,\ Angular.js,\ mongoDB
+  989  ls
+  990  cat Course\ Description.txt
+  991  cd ..
+  992  ls
+  993  cd Build\ a\ Real\ Time\ web\ app\ in\ node.js\ ,\ Angular.js,\ mongoDB
+  994  ls
+  995  cd Section\ 1\ -\ Welcome
+  996  ls
+  997  pwd
+  998  ls
+  999  cd
+ 1000  ls
+ 1001  cd desktop
+ 1002  cd Desktop
+ 1003  ls
+ 1004  cd tinyevents
+ 1005  ls
+ 1006  vim index_1.html
+ 1007  la
+ 1008  ls
+ 1009  index.html
+ 1010  vim index.html
+ 1011  pwd
+ 1012  ls
+ 1013  cd Desktop/
+ 1014  ;s
+ 1015  ls
+ 1016  cd tinyevents
+ 1017  ls
+ 1018  vim index.html
+ 1019  PWD
+ 1020  pwd
+ 1021  ls
+ 1022  cd Desktop
+ 1023  ld
+ 1024  ls
+ 1025  cd tinyevents
+ 1026  ls
+ 1027  vim index.html
+ 1028  pwd
+ 1029  ls
+ 1030  cd Desktop
+ 1031  ls
+ 1032  cd tinyevents
+ 1033  ls
+ 1034  vim index.html
+ 1035  pwd
+ 1036  cd Desktop/
+ 1037  cd tinyevents
+ 1038  ls
+ 1039  vim index.html
+ 1040  '/home/sbonelo/Desktop/tinyevents/css/index_styling/w3.css' 
+ 1041  '/home/sbonelo/Desktop/tinyevents/css/index_styling/vim w3.css' 
+ 1042  ls
+ 1043  clear
+ 1044  ls
+ 1045  cd css
+ 1046  ls
+ 1047  cd index_styling
+ 1048  ls
+ 1049  vim w3.css
+ 1050  pwd
+ 1051  ls
+ 1052  cd Desktop
+ 1053  ls
+ 1054  cels
+ 1055  ls
+ 1056  cd tinyevents
+ 1057  ls
+ 1058  vim index.html
+ 1059  eexit
+ 1060  exit
+ 1061  pwd
+ 1062  ls
+ 1063  cd Desktop
+ 1064  ls
+ 1065  cd tinyevents
+ 1066  ls
+ 1067  vim index.html
+ 1068  pwd
+ 1069  cd Desktop/tinyevents
+ 1070  ls
+ 1071  vim index.html
+ 1072  PWD
+ 1073  pwd
+ 1074  ls
+ 1075  vim snake.html
+ 1076  pwd
+ 1077  ls
+ 1078  pwd
+ 1079  ls
+ 1080  mv snake.html WEBDEV_CHALLENGES
+ 1081  ls
+ 1082  cd WEBDEV_CHALLENGES
+ 1083  ls
+ 1084  vim snake.html
+ 1085  touch snake.html
+ 1086  ls
+ 1087  pwd
+ 1088  ls
+ 1089  vim tipCalculator.js
+ 1090  sudo apt update && sudo apt upgrade -y
+ 1091  sudo dpkg --configure mysql-common
+ 1092  sudo apt dist-upgrade
+ 1093  sudo apt auto-remove
+ 1094  sudo apt ugrade *
+ 1095  sudo apt upgrade *
+ 1096  sudo pkg upgrade
+ 1097  pwd
+ 1098  ls
+ 1099  sudo apt remove mysql*
+ 1100  bash
+ 1101  pwd
+ 1102  ls
+ 1103  cd ~/sbonelo
+ 1104  cd ~/.sbonelo
+ 1105  exit
+ 1106  pwd
+ 1107  ls
+ 1108  cd Downloads
+ 1109  ls
+ 1110  start terminal
+ 1111  nano index.html
+ 1112  clear
+ 1113  pwd
+ 1114  nano index.html
+ 1115  pwd
+ 1116  ls
+ 1117  pwd
+ 1118  ls
+ 1119  pwd
+ 1120  ls
+ 1121  pwd
+ 1122  ls
+ 1123  clear
+ 1124  pwd
+ 1125  ls
+ 1126  cd snap
+ 1127  ls
+ 1128  cd ../WEBDEV_CHALLENGES
+ 1129  ls
+ 1130  cd ../Desktop
+ 1131  ls
+ 1132  vim upgrade.txt
+ 1133  pwd
+ 1134  ls
+ 1135  cd Documents
+ 1136  ls
+ 1137  cd ../Desktop
+ 1138  ls
+ 1139  cd ~
+ 1140  ls
+ 1141  git status
+ 1142  git
+ 1143  git --version
+ 1144  grep * .pdf
+ 1145  grep * ".pdf"
+ 1146  git
+ 1147  git help -a
+ 1148  git
+ 1149  git grep -help
+ 1150  git grep --help
+ 1151  git grep --status
+ 1152  git grep status
+ 1153  git grep -status
+ 1154  pwd
+ 1155  ls
+ 1156  cd ~/
+ 1157  git --version
+ 1158  git clone git ://git kernerl.org/pub/scm/git/git.git
+ 1159  git clone git ://git.kernerl.org/pub/scm/git/git.git
+ 1160  git clone git://git.kernerl.org/pub/scm/git/git.git
+ 1161  git config --list --show-origin
+ 1162  git config --list
+ 1163  pwd
+ 1164  ls
+ 1165  cd WEBDEV_CHALLENGES
+ 1166  pwd
+ 1167  ls
+ 1168  mv challenhge1.html challenge1.html
+ 1169  clear /ls
+ 1170  clear
+ 1171  ls
+ 1172  git init
+ 1173  git add *.html
+ 1174  ls
+ 1175  git status
+ 1176  git rm .challenge2.html.swp
+ 1177  git rm challenge2.html.swp
+ 1178  git status
+ 1179  git commit -m 'Personal Web Challenges'
+ 1180  git status
+ 1181  echo 'my project' > README
+ 1182  git status
+ 1183  git add README
+ 1184  git status
+ 1185  git mv README CONTRIBUTING.md
+ 1186  git status
+ 1187  git add CONTRIBUTING.md
+ 1188  git status
+ 1189  git add
+ 1190  git status
+ 1191  git commit -m 'add to web dev'
+ 1192  git status
+ 1193  git rm challenge2.html.swp
+ 1194  git rm .challenge2.html.swp
+ 1195  git r .challenge2.html.swp
+ 1196  git rm *.swp
+ 1197  git rm * .swp
+ 1198  git rm * ".swp"
+ 1199  git rm --help
+ 1200  git rm -f *.swp
+ 1201  git rm -f .challenge2.html.swp
+ 1202  git rm -f challenge2.html.swp
+ 1203  git rm --help
+ 1204  git-rm -f *.swp
+ 1205  git-rm -f *".swp"
+ 1206  git-rm -f * ".swp"
+ 1207  git status
+ 1208  pwd
+ 1209  ls
+ 1210  cd ~/
+ 1211  ls
+ 1212  ls 
+ 1213  pwd
+ 1214  mkdir workspace
+ 1215  cd workspace
+ 1216  ls
+ 1217  touch README.md
+ 1218  cp README.md CHANGELOG.md
+ 1219  touch exercise.md && mv exercise /~tmp
+ 1220  touch exercise.md
+ 1221  mv exercise.md ~/tmp
+ 1222  rm -f ~/tmp/exercise.md
+ 1223  touch umuzi.md recruits.md cohort.md
+ 1224  ls
+ 1225  echo "umuzi is home" > umuzi.md && echo "..And I am a current recruit.." > recruits.md && echo "..In the biggest cohort yet" > cohort.md
+ 1226  cat umuzi.md
+ 1227  cat umuzi.md recruits.md cohort.md
+ 1228  echo umuzi.md recruits.md cohort.md >> summary.md
+ 1229  ls
+ 1230  cat summary.md
+ 1231  rm -f summary.md
+ 1232  ls
+ 1233  echo umuzi.md && echo recruits.md && echo cohort.md > summary.md 
+ 1234  ls
+ 1235  cat summary.md
+ 1236  rm -f summary.md
+ 1237  cp umuzi.md && cp  recruits.md && cp cohort.md  && echo > summary.md 
+ 1238  cp -v umuzi.md recruits.md cohort.md
+ 1239  pwd
+ 1240  ls
+ 1241  cat *
+ 1242  cat * && echo > summary.md
+ 1243  ls
+ 1244  cat summary.md
+ 1245  lsls
+ 1246  ls
+ 1247  rm -f summary.md
+ 1248  pwd
+ 1249  ls
+ 1250  cat * .md  && echo > summary.md
+ 1251  cat *.md  && echo > summary.md
+ 1252  cat summary.md
+ 1253  ls
+ 1254  $summary.md = cat umuzi.md && cat recruits.md && cat cohort.md
+ 1255  cat umuzi.md recruits.md cohort.md && echo > summary.md
+ 1256  ls
+ 1257  cat summary.md
+ 1258  ls
+ 1259  cp --help
+ 1260  man cp
+ 1261  cat umuzi.md recruits.md cohort.md && cp summary.md
+ 1262  pwd
+ 1263  ls
+ 1264  man echo
+ 1265  man >
+ 1266  man ">"
+ 1267  man cp
+ 1268  ls
+ 1269  nano summary.md
+ 1270  git reset HEAD --.challenge2.html.swp
+ 1271  git reset HEAD --challenge2.html.swp
+ 1272  git status
+ 1273  git reset HEAD -- challenge2.html.swp
+ 1274  git status
+ 1275  gir rm -f *.swp
+ 1276  man cat
+ 1277  cat umuzi.md recruits.md cohort.md >> summary.md
+ 1278  ls
+ 1279  cat summary.md
+ 1280  cat umuzi.md recruits.md cohort.md >> summary.md && cat summary.md
+ 1281  cat summary.md
+ 1282  ls
+ 1283  cat summary.md
+ 1284  rm -f summary.md
+ 1285  ls
+ 1286  cat umuzi.md recruits.md cohort.md >> summary.md && cat summary.md
+ 1287  echo "The End" >> summary.md
+ 1288  cat summary.md
+ 1289  ls
+ 1290  pwd
+ 1291  locate umuzi
+ 1292  ls
+ 1293  locate umuzi.md
+ 1294  start terminal
+ 1295  locate umuzi
+ 1296  locate umuzi.md
+ 1297  locate umuzi
+ 1298  pwd
+ 1299  ls
+ 1300  locate umuzi
+ 1301  locate Umuzi
+ 1302  vim /etc/NetworkManager/system-connections/02\ Umuzi\ Academy
+ 1303  locate umuzi
+ 1304  exit
+ 1305  exit()
+ 1306  exit
+ 1307  cd ~/
+ 1308  locate umuzi
+ 1309  locate Umuzi
+ 1310  cd
+ 1311  locate umuzi
+ 1312  locate umuzi && cat cd
+ 1313  locate umuzi && echo locate
+ 1314  locate umuzi && echo location
+ 1315  man cd
+ 1316  cd --help
+ 1317  cd man
+ 1318  sudo apt install-terminator
+ 1319  sudo apt install terminator
+ 1320  pwd
+ 1321  ls
+ 1322  tree
+ 1323  cd ~/
+ 1324  la
+ 1325  ls
+ 1326  la
+ 1327  exit
+ 1328  pwd
+ 1329  ls
+ 1330  cd ~/
+ 1331  pwd
+ 1332  ls
+ 1333  sudo apt-get install vlc
+ 1334  exit
+ 1335  pwd
+ 1336  ls
+ 1337  git status
+ 1338  pwd
+ 1339  ls
+ 1340  cd WEBDEV_CHALLENGES
+ 1341  git status
+ 1342  rm -f *.swp
+ 1343  rm -f * .swp
+ 1344  rm -rf .challenge2.html.swp
+ 1345  git status
+ 1346  cd ~/
+ 1347  ls
+ 1348  man open
+ 1349  openvt LINUX_CHALLENGES.txt
+ 1350  man open
+ 1351  open ~/Desktop
+ 1352  open ~/WEBDEV_CHALLENGES/challenge1.html
+ 1353  clear
+ 1354  git config --list --show-origin
+ 1355  GI[
+ 1356  Clear
+ 1357  git status
+ 1358  pwd
+ 1359  ls
+ 1360  clear
+ 1361  pwd
+ 1362  ls
+ 1363  pwd
+ 1364  ls
+ 1365  git config --list
+ 1366  pwd
+ 1367  ls
+ 1368  git clone https://github.com/libgit/libgit2
+ 1369  clear
+ 1370  git clone https://github.com/libgit/libgit2
+ 1371  git clone https://github.com/libgit/libgit2 mylibgit
+ 1372  git status
+ 1373  pwd
+ 1374  ls
+ 1375  cd WEBDEV_CHALLENGES && git status
+ 1376  git status
+ 1377  git status -s
+ 1378  ls
+ 1379  echo "My Project" > README
+ 1380  ls
+ 1381  git status
+ 1382  clear
+ 1383  git status
+ 1384  git commit -m 'README'
+ 1385  git add README
+ 1386  git status
+ 1387  git commit -'README file'
+ 1388  git commit -m 'README file'
+ 1389  git status
+ 1390  clear
+ 1391  git status -s
+ 1392  git status --short
+ 1393  clear
+ 1394  cat .gitignore
+ 1395  clear
+ 1396  cat .gitignore
+ 1397  cat .gitignoreclear
+ 1398  clear
+ 1399  touch ignore.gitignore && vim ignore.gitignore
+ 1400  cat ignore.gitignore
+ 1401  ls
+ 1402  git status
+ 1403  mv ignore.gitignore .ignore
+ 1404  cat .ignore
+ 1405  echo "# ignore all .a files\n*.a" >> .gitignore
+ 1406  cat .gitignore
+ 1407  pwd
+ 1408  ls
+ 1409  git status
+ 1410  rm -fr .ignore
+ 1411  git status
+ 1412  vim .gitignore
+ 1413  ls
+ 1414  git status
+ 1415  git commit -m '.gitignore file'
+ 1416  git add .gitignore
+ 1417  git commit -m '.gitignore file'
+ 1418  ls
+ 1419  git status
+ 1420  git diff
+ 1421  git commit
+ 1422  pwd
+ 1423  ls
+ 1424  cd ..
+ 1425  ls
+ 1426  cd ..
+ 1427  ls
+ 1428  pwd
+ 1429  cd ..
+ 1430  ls
+ 1431  cd lib64
+ 1432  ls
+ 1433  cd ../dev
+ 1434  ls
+ 1435  cd dvd
+ 1436  cd ..
+ 1437  ls
+ 1438  cd mnt
+ 1439  ls
+ 1440  cd ../var
+ 1441  ls
+ 1442  cd www
+ 1443  ls
+ 1444  cd html
+ 1445  ls
+ 1446  vim index.html
+ 1447  cd ~/
+ 1448  ls
+ 1449  clear
+ 1450  pwd
+ 1451  cd ~/var
+ 1452  clear
+ 1453  pwd
+ 1454  ls
+ 1455  cd Documents && touch pad.md
+ 1456  ls
+ 1457  cd ~/Desktop
+ 1458  cd ~/Documents
+ 1459  cd ~/Desktop/mkdir work
+ 1460  cd ~/Desktop && mkdir work
+ 1461  cd ~/Documents && cp pad.md ~/Desktop/work pad_copy.md
+ 1462  cd ~/Documents && cp pad.md ~/Desktop/work
+ 1463  cd ~/work
+ 1464  cd ~/Desktop
+ 1465  ls
+ 1466  cd work
+ 1467  ls
+ 1468  rm pad.md
+ 1469  cd ~/Desktop
+ 1470  ls
+ 1471  pwd
+ 1472  cd ~/Documents && cp pad.md ~/Desktop/work && mv pad.md pad_copy.md
+ 1473  ls
+ 1474  locate updatedb
+ 1475  cd -
+ 1476  locate pad_copy.md
+ 1477  find * "/.pdf"
+ 1478  find * ".pdf"
+ 1479  locate * ".pdf"
+ 1480  find .pdf
+ 1481  find ".pdf"
+ 1482  find *".pdf"
+ 1483  ls
+ 1484  pwd
+ 1485  find *".pdf"
+ 1486  find *".pdf" >> work
+ 1487  find *".pdf" && mv *".pdf" work
+ 1488  cd work
+ 1489  ls
+ 1490  cd ..
+ 1491  ls
+ 1492  time 
+ 1493  man time 
+ 1494  wc /etc/hosts
+ 1495  man wc
+ 1496  wc ~/Desktop/work
+ 1497  wc ~/Desktop/work/
+ 1498  wc ~/Desktop/work/*
+ 1499  echo time
+ 1500  Time
+ 1501  time 
+ 1502  Time
+ 1503  time -a
+ 1504  time -h
+ 1505  nano my_bio.md
+ 1506  ls
+ 1507  nano my_bio.md
+ 1508  ls
+ 1509  mkdir my_files && mv my_bio my_files 
+ 1510  mkdir my_files && mv my_bio.md my_files 
+ 1511  pwd
+ 1512  ls
+ 1513  mv my_bio.md my_files
+ 1514  ls
+ 1515  TIME
+ 1516  time
+ 1517  -t
+ 1518  ~/t
+ 1519  --g
+ 1520  clear
+ 1521  time
+ 1522  man grep
+ 1523  modified
+ 1524  mod
+ 1525  modify
+ 1526  date
+ 1527  man date
+ 1528  man
+ 1529  files
+ 1530  man file
+ 1531  grep date
+ 1532  date
+ 1533  cat date 
+ 1534  echo $date
+ 1535  echo date
+ 1536  echo $~/
+ 1537  echo $date
+ 1538  clear
+ 1539  echo $Date
+ 1540  Date
+ 1541  man date
+ 1542  date -a
+ 1543  date --help
+ 1544  date -r
+ 1545  date -r *".pdf"
+ 1546  date --r
+ 1547  date --reference=work
+ 1548  date --help
+ 1549  cd ~/WEBDEV_CHALLENGES
+ 1550  git status
+ 1551  clear
+ 1552  pwd
+ 1553  ls
+ 1554  git status -a
+ 1555  git status 
+ 1556  clear
+ 1557  aliase
+ 1558  pwd
+ 1559  ls
+ 1560  vim snake.html
+ 1561  pwd
+ 1562  ls
+ 1563  vim snake.html
+ 1564  pwd
+ 1565  ls
+ 1566  cd WEBDEV_CHALLENGES
+ 1567  git status
+ 1568  git add snake.html
+ 1569  git status
+ 1570  git commit -m 'snake game phase two'
+ 1571  git status
+ 1572  rm -f snake.html.swp
+ 1573  git status
+ 1574  rm -fr snake.html.swp
+ 1575  git status
+ 1576  git rm snake.html.swp
+ 1577  git rm .snake.html.swp
+ 1578  rm .snake.html.swp
+ 1579  git status
+ 1580  cd ~/
+ 1581  ls
+ 1582  vim LINUX_CHALLENGES.txt
+ 1583  cd ~/
+ 1584  sudo apt update
+ 1585  sudo apt-get install mysql-server
+ 1586  sudo apt-get install mysql-server -f
+ 1587  sudo apt-get clean
+ 1588  sudo apt-get purge mysql*
+ 1589  sudo apt-get update
+ 1590  sudo apt-get clean
+ 1591  sudo apt-get purge mysql*
+ 1592  sudo apt-get install -f
+ 1593  sudo apt-get purge mysql*
+ 1594  mysql
+ 1595  sudo apt-get purge mysql*
+ 1596  sudo apt-get autoremove
+ 1597  pwd
+ 1598  ls
+ 1599  clear
+ 1600  sudo apt-get purge mysql*
+ 1601  mysql
+ 1602  sudo /etc/init.d/mysql stop
+ 1603  sudo dpkg --configure mysql-server-X.X
+ 1604  sudo apt-get upgrade
+ 1605  git clone https://github.com/brutalveg/js-html-snake-game.git
+ 1606  git status
+ 1607  ls
+ 1608  cd js-html-snake-game
+ 1609  ls
+ 1610  vim index.html
+ 1611  nano index.html
+ 1612  cd ~/
+ 1613  pwd
+ 1614  ls
+ 1615  cd Desktop
+ 1616  vim snake-game-copy.html
+ 1617  sudo apt-get purge
+ 1618  sudo apt-get clean
+ 1619  sudo apt-get check
+ 1620  sudo apt-get install -f
+ 1621  sudo apt autoremove
+ 1622  sudo dpkg --configure -a
+ 1623  ps -eaf
+ 1624  sudo kill -9 7973
+ 1625  sudo apt-get purge mysql-server-5.7
+ 1626  sudo apt install -f
+ 1627  sudo apt-get install mysql-server
+ 1628  mysql --version
+ 1629  mysql
+ 1630  mysql -u root -p
+ 1631  [mysql]
+ 1632  mysql -u root
+ 1633  mysql -u sbonelo
+ 1634  mysql -u root -p
+ 1635  mysql -u sbonelo -p
+ 1636  mysql
+ 1637  man ls
+ 1638  ls
+ 1639  cd my_files
+ 1640  ls
+ 1641  cd ~/
+ 1642  cd ~/WEBDEV_CHALLENGES
+ 1643  ls
+ 1644  git status
+ 1645  locate snake
+ 1646  locate .git
+ 1647  locat js-html-snake-game
+ 1648  locate js-html-snake-game
+ 1649  ls
+ 1650  git clone https://github.com/brutalveg/js-html-snake-game.git
+ 1651  ls
+ 1652  cd js-html-snake-game
+ 1653  ls
+ 1654  vim index.html
+ 1655  firefox index.html
+ 1656  vim index.html
+ 1657  firefox index.html
+ 1658  vim index.html
+ 1659  firefox index.html
+ 1660  vim index.html
+ 1661  pwd
+ 1662  cd ~/WEBDEV_CHALLENGES
+ 1663  ls
+ 1664  cd js-html-snake-game
+ 1665  ls
+ 1666  vim index.html
+ 1667  firefox index.html
+ 1668  vim index.html
+ 1669  firefox index.html
+ 1670  pwd
+ 1671  ls
+ 1672  cd WEBDEV_CHALLENGES
+ 1673  ls
+ 1674  cd js-html-snake-game
+ 1675  ls
+ 1676  vim index.html
+ 1677  firefox index.html
+ 1678  vim index.html
+ 1679  firefox index.html
+ 1680  pwd
+ 1681  vim index.html
+ 1682  firefox index.html
+ 1683  vim index.html
+ 1684  cd ~/
+ 1685  mkdir git-basic-exercises
+ 1686  ls
+ 1687  cd git-basic-exercises
+ 1688  ls -a
+ 1689  git init
+ 1690  ls -a
+ 1691  git status
+ 1692  touch README.md
+ 1693  ls - && git status
+ 1694  ls -a && git status
+ 1695  ls -a
+ 1696  git status
+ 1697  git log
+ 1698  git add README.md
+ 1699  git status
+ 1700  git rm --cached
+ 1701  git status
+ 1702  git reset HEAD README.md
+ 1703  git rm --cached README.md
+ 1704  git status
+ 1705  git add README.md
+ 1706  git status
+ 1707  git commit -m "initial commit"
+ 1708  git log
+ 1709  nano README.md
+ 1710  cat README.md
+ 1711  git status
+ 1712  git stats
+ 1713  git commit -m "second commit"
+ 1714  git branch
+ 1715  git status
+ 1716  git commit -m "second commit"
+ 1717  ls
+ 1718  git add README.md && git commit -m "second commit"
+ 1719  git status
+ 1720  ls
+ 1721  nano README.md
+ 1722  git add README.md && git commit -m "third commit"
+ 1723  git log
+ 1724  git checkout bc2ea95e8d4ee17ff4c3837aea6f33431cdac4a4
+ 1725  cat README.md
+ 1726  git checkout master
+ 1727  cat README.md
+ 1728  git checkout
+ 1729  git branch
+ 1730  git branch milkshake-flavours
+ 1731  git branch
+ 1732  git branch *
+ 1733  git branch 
+ 1734  git branch milkshake-flavours
+ 1735  git branch 
+ 1736  ls
+ 1737  git status
+ 1738  git branch 
+ 1739  git status
+ 1740  git branch 
+ 1741  cd milkshake
+ 1742  cd milkshake-flavours
+ 1743  git cd milkshake-flavours
+ 1744  cd ..
+ 1745  ls
+ 1746  pwd
+ 1747  ls
+ 1748  cd -
+ 1749  pwd
+ 1750  ls
+ 1751  git status
+ 1752  git branch --help
+ 1753  git branch 
+ 1754  git branch -a
+ 1755  git checkout milkshake-flavours
+ 1756  git branch
+ 1757  nano milkshakes.md
+ 1758  git status
+ 1759  git add milkshakes.md && git commit -m "added initial flavors"
+ 1760  git status
+ 1761  git log
+ 1762  git checkout master
+ 1763  git log
+ 1764  git branch history
+ 1765  ls
+ 1766  git branch
+ 1767  git checkout history
+ 1768  git log
